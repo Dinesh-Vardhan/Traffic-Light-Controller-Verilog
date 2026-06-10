@@ -42,7 +42,7 @@ always
         NS_vehicle_detect = ~NS_vehicle_detect; 
     if($time % 15 ==0) 
 EW_vehicle_detect = ~EW_vehicle_detect; 
-traffic_ligt_ctrl_eng CORE (  
+traffic_light_ctrl CORE (  
 .i_NS_count         (i_NS_count),                
 .i_EW_count         (i_EW_count),                    
 .yellow_count       (yellow_count),                 
